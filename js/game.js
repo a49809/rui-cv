@@ -142,7 +142,7 @@ function selectAnswer(e){
 	if(isCorrect){
 		selectedBtn.classList.add("correct");
 		score++;
-		console.log(score);
+		//console.log(score);
 	}else{
 		selectedBtn.classList.add("incorrect");
 	}
